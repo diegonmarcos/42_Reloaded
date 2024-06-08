@@ -41,6 +41,7 @@ while( (mid * mid) - nb > 0.001 || (mid * mid) - nb < - 0.001 )
         else
         return (mid);
     }
+return mid;
 
 }
 }
