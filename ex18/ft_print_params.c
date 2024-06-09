@@ -9,12 +9,8 @@
 /*   Updated: 2024/06/08 06:20:31 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
 
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void	ft_putchar(char c);
 
 int	main(int argc, char **argv)
 {
