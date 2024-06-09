@@ -21,7 +21,7 @@ void	ft_putchar(char c, int std)
 
 void	ft_putstr(char *str, int std)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (str[i])
