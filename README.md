@@ -1,4 +1,5 @@
 # 42_Reloaded
+
 ex00: KO | 
 ex01: KO | 
 ex02: KO | 
@@ -19,3 +20,11 @@ _ex16: OK |
 _ex17: OK | 
 _ex18: Does not compile | 
 _ex19: Does not compile |
+ex20:
+ex21:
+ex22:
+ex23:
+ex24:
+ex25:
+ex26:
+ex27:
