@@ -1,31 +1,30 @@
 # 42_Reloaded
 
-ex00: KO | 
-ex01: KO | 
-ex02: KO | 
-ex03: KO | 
-_ex04: OK | 
-ex05: KO | 
-_ex06: Does not compile | 
-_ex07: Does not compile | 
-_ex08: Does not compile | 
-_ex09: OK | 
-_ex10: OK | 
-_ex11: OK | 
-_ex12: OK | 
-_ex13: OK | 
-_ex14: OK | 
-_ex15: Does not compile | 
-_ex16: OK | 
-_ex17: OK | 
-_ex18: Does not compile | 
-_ex19: Does not compile |
-
-ex20:
-ex21:
-ex22:
-ex23:
-ex24:
-ex25:
-ex26:
-ex27:
+ex00: OK | 
+ex01: OK | 
+ex02: OK | 
+ex03: OK | 
+ex04: OK | 
+ex05: OK | 
+ex06: OK | 
+ex07: OK | 
+ex08: OK | 
+ex09: OK | 
+ex10: OK | 
+ex11: OK | 
+ex12: OK | 
+ex13: OK | 
+ex14: OK | 
+ex15: OK | 
+ex16: OK | 
+ex17: OK | 
+ex18: OK | 
+ex19: OK | 
+ex20: Nothing turned in | 
+ex21: Nothing turned in | 
+ex22: Nothing turned in | 
+ex23: Nothing turned in | 
+ex24: Nothing turned in | 
+ex25: Does not compile | 
+ex26: OK | 
+ex27: Norme error
