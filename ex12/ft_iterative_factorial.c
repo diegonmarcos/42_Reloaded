@@ -31,8 +31,3 @@ int	ft_iterative_factorial(int nb)
 		return (0);
 }
 
-int	main(void)
-{
-	printf ("%i \n", ft_iterative_factorial(-5));
-	return (0);
-}

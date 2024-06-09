@@ -18,8 +18,3 @@ int	ft_recursive_factorial(int nb)
 	return (nb * ft_recursive_factorial(nb - 1));
 }
 
-int	main(void)
-{
-	printf("%i\n", ft_recursive_factorial(0));
-	return (0);
-}
