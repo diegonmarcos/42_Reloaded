@@ -11,37 +11,28 @@
 /* ************************************************************************** */
 #include <stdio.h>
 
-int ft_iterative_factorial(int nb)
+int	ft_iterative_factorial(int nb)
 {
-	if(nb > 0 && nb < 13)
-	{	
-		int a;
-		
-		a = nb;
-		while(a > 1)
-		{
-			a = a - 1;
-			nb = nb * a;	
-		}
+	int	a;
 
-		return nb;
-	}
-	else
+	if (nb > 0 && nb < 13)
 	{
-		if(nb == 0)
+		a = nb;
+		while (a > 1)
 		{
-			return 1;
+			a--;
+			nb *= a;
 		}
-		else
-		{
-			return 0;
-		}
+		return (nb);
 	}
+	else if (nb == 0)
+		return (1);
+	else
+		return (0);
 }
 
-int main (void)
+int	main(void)
 {
-	 printf("%i \n",ft_iterative_factorial(-5)) ;
-	 return (0);
+	printf ("%i \n", ft_iterative_factorial(-5));
+	return (0);
 }
-

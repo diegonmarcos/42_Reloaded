@@ -1,53 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_recursive_factorial.c                           :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: dnepomuc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/08 04:46:02 by dnepomuc          #+#    #+#             */
-/*   Updated: 2024/06/08 06:20:31 by dnepomuc         ###   ########.fr       */
+/*   Created: 2024/06/08 04:46:02 by dnepomuc            #+#    #+#           */
+/*   Updated: 2024/06/09 15:13:55 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
 
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
-double low;
-double top;
-double mid;
+	int	i;
 
-low = 0;
-top = nb;
-mid = nb/2;
-
-while( (mid * mid) - nb > 0.001 || (mid * mid) - nb < - 0.001 )
-{
-    if( mid * mid - nb > 0.001)
-    {
-        low = low;
-        top = mid;
-        mid = (low + top) / 2;
-
-    }
-    else
-    {    
-        if( mid * mid - nb < -0.001) 
-        { 
-        low = mid;
-        top = top;
-        mid = (low + top) / 2 ;
-        }
-        else
-        return (mid);
-    }
-
-}
-return mid;
-}
-
-int main (void)
-{
-    printf("%d\n",ft_sqrt(15));
-    return 0;
+	i = 1;
+	if (nb > 0)
+	{
+		while ((i * i) <= nb)
+			i++;
+		i--;
+		if ((nb - i * i) == 0)
+			return (i);
+		return (0);
+	}
+	return (0);
 }

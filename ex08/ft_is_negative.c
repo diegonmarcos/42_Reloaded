@@ -6,7 +6,7 @@
 /*   By: dnepomuc <dnepomuc@student.42barcelona>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/08 17:17:08 by dnepomuc          #+#    #+#             */
-/*   Updated: 2024/06/08 04:24:32 by dnepomuc         ###   ########.fr       */
+/*   Updated: 2024/06/09 14:28:49 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 {
-	if(n < 0)
+	if (n < 0)
 	{
 		ft_putchar('N');
 	}

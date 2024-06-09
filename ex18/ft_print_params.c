@@ -16,13 +16,13 @@ void	ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-int main (int argc, char **argv)
+int	main(int argc, char **argv)
 {
-    int i;
+	int	i;
 
-    while (i < argc)
-    {
-        ft_putchar(argv[i])
-    }
-    return 0
+	while (i < argc)
+	{
+		ft_putchar(argv[i]);
+	}
+	return (0);
 }
