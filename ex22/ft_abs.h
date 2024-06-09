@@ -10,9 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_ABS_H
-# define FT_ABS_H
+# define ABS
 
-# define ABS(x) x > 0 ? x : -x
+int	ft_abs(int value)
+{
+	if (value < 0)
+		return (-value);
+	return (value);
+}
 
 #endif
