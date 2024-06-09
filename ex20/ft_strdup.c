@@ -22,7 +22,8 @@ char	*ft_strdup(char *src)
 	size = 0;
 	while (src[size])
 		size++;
-	if ((str = (char *)malloc(sizeof(*str) * size)) == NULL)
+	str = char *malloc(sizeof(*str) * size);
+	if (str == NULL)
 		return (NULL);
 	while (src[i])
 	{
