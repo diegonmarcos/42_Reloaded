@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: despanad <despanad@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: dnepomuc <dnepomuc@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/09 18:11:26 by despanad          #+#    #+#             */
-/*   Updated: 2024/06/09 18:12:18 by despanad         ###   ########.fr       */
+/*   Created: 2024/06/09 18:11:26 by dnepomuc          #+#    #+#             */
+/*   Updated: 2024/06/09 18:12:18 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

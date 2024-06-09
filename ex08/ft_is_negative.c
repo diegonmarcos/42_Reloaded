@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: despanad <despanad@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: dnepomuc <dnepomuc@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/09 16:50:47 by despanad          #+#    #+#             */
-/*   Updated: 2024/06/09 17:46:34 by despanad         ###   ########.fr       */
+/*   Created: 2024/06/09 16:50:47 by dnepomuc          #+#    #+#             */
+/*   Updated: 2024/06/09 17:46:34 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

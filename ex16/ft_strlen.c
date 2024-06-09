@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: despanad <despanad@student.42barcelona.co  +#+  +:+       +#+        */
+/*   By: dnepomuc <dnepomuc@student.42barcelona.co  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/09 18:14:27 by despanad          #+#    #+#             */
-/*   Updated: 2024/06/09 18:48:17 by despanad         ###   ########.fr       */
+/*   Created: 2024/06/09 18:14:27 by dnepomuc          #+#    #+#             */
+/*   Updated: 2024/06/09 18:48:17 by dnepomuc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
