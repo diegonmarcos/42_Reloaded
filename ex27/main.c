@@ -28,7 +28,7 @@ void	ft_putstr(char *str, int std)
 		ft_putchar(str[i++], std);
 }
 
-int		show_char(char **argv)
+int	show_char(char **argv)
 {
 	int		fd;
 	int		ret;
@@ -52,7 +52,7 @@ int		show_char(char **argv)
 	return (1);
 }
 
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc == 1)
 		ft_putstr("File name missing.\n", 2);
